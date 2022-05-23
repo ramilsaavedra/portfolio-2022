@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  background: rgb(32, 33, 36);
+  font-family: 'Akshar', sans-serif;
+  color: #fff;
+}
+
+#canvas {
+  height: 100%;
+  width: 100%;
+}
