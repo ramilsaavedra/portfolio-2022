@@ -1,11 +1,74 @@
 body {
   margin: 0;
   background: rgb(32, 33, 36);
-  font-family: 'Akshar', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #fff;
+  overflow-x: hidden;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+#landing-page {
+  height: 100vh;
+  width: 100vw;
+  z-index: 2;
+  /* border: 1px solid red; */
+}
+
+.hero-text-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  position: relative;
+}
+
+.hero-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.2;
+  font-weight: 'regular';
+}
+
+.hero-text-container h1 {
+  font-size: 70px;
+}
+
+.hero-text-name-container h2 {
+  font-size: 48px;
+  display: inline;
+}
+
+.hero-text-container p {
+  font-size: 36px;
+  color: #b6afaf;
+  margin-top: 20px;
+}
+
+.hero-text-name {
+  color: #da0037;
 }
 
 #canvas {
   height: 100%;
   width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.ascent-lines {
+  position: absolute;
+  top: -15%;
+  left: -20%;
+}
+
+.ascent-curls {
+  position: absolute;
+  top: -20%;
+  right: -10%;
 }
