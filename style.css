@@ -30,20 +30,21 @@ h2 {
   align-items: center;
   justify-content: center;
   line-height: 1.2;
-  font-weight: 'regular';
 }
 
 .hero-text-container h1 {
   font-size: 70px;
+  font-weight: 300;
 }
 
 .hero-text-name-container h2 {
   font-size: 48px;
   display: inline;
+  font-weight: 300;
 }
 
 .hero-text-container p {
-  font-size: 36px;
+  font-size: 32px;
   color: #b6afaf;
   margin-top: 20px;
 }
@@ -61,14 +62,14 @@ h2 {
   z-index: 1;
 }
 
-.ascent-lines {
+.ascent-circle-lines {
   position: absolute;
-  top: -15%;
-  left: -20%;
+  bottom: 5%;
+  left: -10%;
 }
 
-.ascent-curls {
+.ascent-circle {
   position: absolute;
-  top: -20%;
-  right: -10%;
+  top: -15%;
+  right: -5%;
 }
